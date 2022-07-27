@@ -2,44 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Elearning Pathsala</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elearning Pathsala</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand text-bold" href="#">Elearning Pathsala</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup ">
-                    <div class="navbar-nav px-4">
-                        <a class="px-4 nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link px-4" href="#">Courses</a>
-                        <a class="nav-link px-4" href="#">Deals</a>
-                        <a class="nav-link px-4" href="#">Success</a>
-                        <a class="nav-link px-4" href="#">Log in</a>
-                    </div>
-                </div>
-                <form class="justify-content-end">
-                    <button class="btn btn-outline-success me-2" type="button">Register</button>
-                </form>
-            </div>
-        </nav>
-
+  <header class="container p-3">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Elearning Pathsala</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup ">
+          <div class="navbar-nav px-4 fw-bold">
+            <a class="px-4 nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link px-4" href="#">Courses</a>
+            <a class="nav-link px-4" href="#">Deals</a>
+            <a class="nav-link px-4" href="#">Success</a>
+            <a class="nav-link px-4" href="#">Log in</a>
+          </div>
+          <form class="justify-content-end">
+            <button class="btn btn-outline-success me-2" type="button">Register</button>
+          </form>
+        </div>
         
-    </header>
+      </div>
+    </nav>
 
+    <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/cover/cover-3.jpg" class="img-fluid bg-img  bg-opacity-10" alt="...">
+            <div class="carousel-caption d-none d-md-block fw-bold text-white">
+              <h2>Let's Start Your Digital learning</h2>
+              <p>You can learn from here digitally. its on online learning platfrom</p>
+              <a class="btn btn-danger" href="">Get started</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/cover/cover-1.png" class="img-fluid bg-img bg-opacity-10" alt="...">
+            <div class="carousel-caption d-none d-md-block fw-bold text-white">
+              <h2>Learn form internet and explore your knowledge</h2>
+              <p>it is an inappropriate learning environment for more dependent learners.</p>
+              <a class="btn btn-danger" href="">Get started</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="img-fluid bg-img bg-opacity-10" alt="...">
+            <div class="carousel-caption d-none d-md-block fw-bold text-white">
+              <h2>Update Your self learn form Elearning pathshala</h2>
+              <p>Online learning is education that takes place over the Internet. It is often referred to as elearning
+                among other terms.</p>
+              <a class="btn btn-danger" href="">Get started</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
 
-
-
+  <main class="container my-3">
+    <!-- Courses part start -->
+    <section>
+      <div class="mt-5 text-center">
+        <h1 class="fw-bold">Discover Our Popular <br> Courses</h1>
+        <p>we are offering many interesting online courses lets explore <br> and gather your knowledge with us.</p>
+    </div>
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 ">
+        <div class="cols-sm-12">
+            <div class="d-flex align-items-center border">
+                <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+                <div class="card-body m-3">
+                    <h5 class="card-title">Fundamental of UI/UX Design</h5>
+                    <p class="card-text">UI stands for user interface design and UX design refers to user experience design</p>
+                    <h4 class="text-info">Price: 20$</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="d-flex align-items-center border">
+              <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+              <div class="card-body m-3">
+                  <h5 class="card-title">JavaScript basic to advance</h5>
+                  <p class="card-text">JavaScript is a programming language use for web development.</p>
+                  <h4 class="text-info">price: 40$</h4>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-center border">
+            <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+            <div class="card-body m-3">
+                <h5 class="card-title">Full stack web Development</h5>
+                <p class="card-text">Full Stack web Development means mixed of front end and backend Development</p>
+                <h4 class="text-info">Price: 60$</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="d-flex align-items-center border">
+          <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+          <div class="card-body m-3">
+              <h5 class="card-title">Digital marketing</h5>
+              <p class="card-text">Digital marking is the most popular courses in the world</p>
+              <h4 class="text-info">price: 20$</h4>
+          </div>
+      </div>
+  </div>
+  <div class="col">
+    <div class="d-flex align-items-center border">
+        <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+        <div class="card-body m-3">
+            <h5 class="card-title">Photography Basic Rules</h5>
+            <p class="card-text">Photography have a some rules to follow that we must know.</p>
+            <h4 class="text-info">Price: 20$</h4>
+        </div>
+    </div>
+</div>
+<div class="col">
+  <div class="d-flex align-items-center border">
+      <img class="img-fluid" src="images/course/course-1.png" class="card-img-top" alt="...">
+      <div class="card-body m-3">
+          <h5 class="card-title">Motion Graphics</h5>
+          <p class="card-text">Graphics Desinging is the most interesting course now in the world</p>
+          <h4 class="text-info">Price: 30$</h4>
+      </div>
+  </div>
+</div>
+    </section>
 
 
 
@@ -48,8 +152,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
