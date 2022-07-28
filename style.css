@@ -1,0 +1,22 @@
+@media only screen and (max-width:768px) {
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 8px;
+    }
+    .courses
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .courses img
+    {
+        width: 100%;
+        height: auto;
+    }
+    .companies
+    {
+        display: hidden;
+    }
+}
