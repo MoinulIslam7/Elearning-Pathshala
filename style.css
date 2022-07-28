@@ -1,9 +1,7 @@
 @media only screen and (max-width:760px) {
-    .carousel-caption h2 {
-        font-size: 15px;
-    }
-    .carousel-caption p {
-        font-size: 5px;
+    .carousel-caption
+    {
+        height: 100%;
     }
     .courses
     {
@@ -18,6 +16,10 @@
     .modify-text
     {
         text-align: center;
+    }
+    .register
+    {
+        justify-items: center;
     }
 }
 @media only screen and (max-width:992px) {
